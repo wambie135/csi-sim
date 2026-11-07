@@ -18,10 +18,10 @@ use rat command and then the file name
 ratpac-two/
   ratdb/
     MATERIALS.ratdb            # CsI_crystal material definition
-    OPTICS.ratdb               # CsI_crystal optical properties
+    OPTICS.ratdb               # CsI_crystal optical properties  (Values from https://www.halide-crylink.com/iodide-crystal/csi-crystal/)
     ELEMENTS.ratdb             # element definitions
     PMT.ratdb                  # lappd photodetector model
-    OPTICS_Photocathode.ratdb  # LAPPD photocathode optics
+    OPTICS_Photocathode.ratdb  # LAPPD photocathode optics       (Values are left default but in macro, overridden values are from Hammamatsu WEbsite)
     PMTTRANSIT.ratdb           # LAPPD timing (LAPPD Default Values)
   changes_vs_v2.1.1.diff       # my edits compared to stock ratpac-two v2.1.1
 bnl30t/
